@@ -1,0 +1,19 @@
+<program>
+ <QVBoxLayout Name="theLayout">
+  <QHBoxLayout Name="mainLayout">
+   <QVBoxLayout Name="leftLayout">
+    <QHBoxLayout Name="topLeftLayout">
+     <QLabel Name="label" Text="Find &amp;what:"/>
+     <QLineEdit Name="lineEdit"/>
+    </QHBoxLayout>
+    <QCheckBox Name="caseCheckBox" Text="Match &amp;case"/>
+    <QCheckBox Name="backwardChekBox" Text="Search &amp;backward"/>
+   </QVBoxLayout>
+   <QVBoxLayout Name="rightLayout">
+    <QPushButton Name="findButton" setDefault="true" setEnabled="false" Text="&amp;Find"/>
+    <QPushButton Name="closeButton" setDefault="true" setEnabled="true" Text="&amp;Close"/>
+   </QVBoxLayout>
+  </QHBoxLayout>
+  <QListWidget Name="qListWidget"/>
+ </QVBoxLayout>
+</program>

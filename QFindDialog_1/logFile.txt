@@ -1,0 +1,7 @@
+log 1: nothing
+log 2: some text in log 2
+log 3: log number 3
+log 4: test log
+log 5: this is 5th test
+log 6: Test of reg
+log 7: TEST IS UPPER
